@@ -82,7 +82,7 @@ and your id_rsa key, and assumes that your account on the nodes has
 password-less sudo set up.
 
 The credentials for ssh are specified using a user map, which can be constructed
-using [`pallet.utils/make-user`][node-push]. This user map can be passed to
+using [`pallet.core.user/make-user`][node-push]. This user map can be passed to
 [`lift`][operations].
 
 ## Running a command on each node
